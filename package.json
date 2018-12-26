@@ -1,0 +1,54 @@
+{
+  "name": "firebase-chat",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.6.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  },
+  "dependencies": {
+    "babel-jest": "^23.6.0",
+    "constants": "0.0.2",
+    "d3-shape": "^1.2.2",
+    "expo": "^31.0.3",
+    "firebase": "4.8.1",
+    "firebase-messaging": "^1.0.6",
+    "hybrid-crypto-js": "^0.1.6",
+    "native-base": "2.8.0",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-firebase": "^3.3.1",
+    "react-native-gifted-chat": "0.3.0",
+    "react-native-image-picker": "^0.27.1",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-navbar": "^2.1.0",
+    "react-native-rsa-native": "^1.0.24",
+    "react-native-search-bar": "^3.4.2",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-tab-view": "^1.3.0",
+    "react-native-touch-id": "^4.3.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "2.3.1",
+    "regenerator-runtime": "^0.12.1",
+    "victory-native": "^30.3.0"
+  }
+}
